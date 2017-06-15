@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="muhammad.salman.App2">
+
+
+    <TextView
+        android:id="@+id/txt_biodata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="BIODATA"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/label_formnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_biodata"
+        android:text="NAMA:"
+        android:labelFor="@+id/edit_formnama"
+        />
+    <EditText
+        android:id="@+id/edit_formnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_formnama"
+        />
+
+    <TextView
+        android:id="@+id/label_formnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_formnama"
+        android:text="NIM:"
+        android:labelFor="@+id/edit_formnama"
+        />
+    <EditText
+        android:id="@+id/edit_formnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_formnim"
+        />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_formnim"
+        android:text="SIMPAN"
+
+        />
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_simpan"
+        android:text="NEXT"
+        />
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_next"
+        android:text="BACK"
+
+        />
+
+
+</RelativeLayout>
